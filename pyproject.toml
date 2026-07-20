@@ -1,0 +1,32 @@
+[project]
+name = "compant-sales-Brochure-generator"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+dependencies = [
+    "python-dotenv",
+    "selenium",
+    "beautifulsoup4",
+    "requests",
+    "google-generativeai",
+    "ipykernel>=7.3.0",
+    "openai>=2.45.0",
+    "gradio>=6.20.0",
+    "system-info>=2.0.3",
+    "tiktoken",
+    "langchain-huggingface>=1.0.0",
+    "langchain-ollama>=1.0.0",
+    "langchain-anthropic>=1.0.1",
+    "langchain-experimental>=0.0.42",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.6",
+    "langchain-community>=0.3.30",
+    "langchain-core>=0.3.76",
+    "langchain-openai>=0.3.33",
+    "langchain-text-splitters>=0.3.11",
+    "scikit-learn>=1.7.2",
+    "plotly>=6.3.0",
+    "google-genai>=1.41.0",
+    "sentence-transformers>=5.1.1",
+    "nbformat>=5.10.4",
+]
